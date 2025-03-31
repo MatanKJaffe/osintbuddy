@@ -1,6 +1,7 @@
 # OSINTBuddy Frontend
 
 # Dependencies
+
 - [react](https://react.dev/)
 - [reactflow](https://www.npmjs.com/package/reactflow)
 - [@blocksuite/*](https://block-suite.com/quick-start.html)
@@ -39,26 +40,27 @@
 
 # Getting Started
 
-  1. Clone the repo
-      ```bash
-      git clone --recurse-submodules https://github.com/jerlendds/osintbuddy.git 
-      cd osintbuddy
-      ```
+1. Clone the repo
 
-  2. Setup your dev environment. From the `osintbuddy` directory run:
-      ```bash
-      ./launcher bootstrap
-      # alternatively from the frontend directory try:  yarn && yarn ui:dev
-      ```
+   ```bash
+   git clone --recurse-submodules https://github.com/jerlendds/osintbuddy.git 
+   cd osintbuddy
+   ```
+2. Setup your dev environment. From the `osintbuddy` directory run:
 
-  3. From the `osintbuddy` directory, start the stack:
-      ```bash
-      ./launcher start
-      # restart the ui:          ./launcher restart ui
-      # stop the ui:             ./launcher stop ui
-      # kill the stack:          ./launcher kill
-      # generate api client:      npm run client:gen (only works if the backend is up)
-      ```
-      - Frontend: [http://localhost:3000](http://localhost:3000)
-      - Backend: [http://localhost:48997/](http://localhost:48997/)
-      - Casdoor: [http://localhost:45910/](http://localhost:45910/)
+   ```bash
+   ./launcher bootstrap
+   # alternatively from the frontend directory try:  yarn && yarn ui:dev
+   ```
+3. From the `osintbuddy` directory, start the stack:
+
+   ```bash
+   ./launcher start
+   # restart the ui:          ./launcher restart ui
+   # stop the ui:             ./launcher stop ui
+   # kill the stack:          ./launcher kill
+   # generate api client:      npm run client:gen (only works if the backend is up)
+   ```
+   - Frontend: [http://localhost:3000](http://localhost:3000)
+   - Backend: [http://localhost:48997/](http://localhost:48997/)
+   - Casdoor: [http://localhost:45910/](http://localhost:45910/)
